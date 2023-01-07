@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
             <div className='flex flex-col my-10 md:my-0 w-full md:w-[25%] mr-24'>
                 <h2 className='text-3xl font-bold'>Lead</h2>
-                <p className='my-3 cursor-pointer hover:scale-105 duration-500 hover:text-[#1063e5]'><a href='/#/' >Home</a></p>
+                <p className='my-3 cursor-pointer hover:scale-105 duration-500 hover:text-[#1063e5]'><a href='/pbm/' >Home</a></p>
                 <p className='my-3 cursor-pointer hover:scale-105 duration-500 hover:text-[#1063e5]'><a href='/pbm/#/services' >Services</a></p>    
                 <p className='my-3 cursor-pointer hover:scale-105 duration-500 hover:text-[#1063e5]'><a href='/pbm/#/contact' >Contact</a></p>
                 <p className='my-3 cursor-pointer hover:scale-105 duration-500 hover:text-[#1063e5]'><a href='/pbm/#/about' >About</a></p>
