@@ -5,7 +5,7 @@ import Hero from "./components/hero";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import { Route, Routes } from "react-router-dom";
-import { HashRouter } from 'react-router-dom';
+// import { HashRouter } from 'react-router-dom';
 import About from "./components/about";
 import Services from "./components/services";
 
