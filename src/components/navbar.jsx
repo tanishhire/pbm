@@ -45,7 +45,7 @@ const Navbar = () => {
         {/* MObile Menu */}
         <div className=' flex flex-row  justify-end duration-500'>
             <ul className= {!nav ? 'hidden' :  "absolute bg-[#1B262C] my-4 rounded-md w-2/5  z-50 flex flex-col  items-center"}>
-                <li  className='py-2 text-xl cursor-pointer  duration-200 text-[#BBE1FA] border px-6 rounded-md my-6 hover:text-[#3282B8] hover:scale-105 '><a onClick={handleClick} href='/'  duration={500} >Home</a></li>
+                <li  className='py-2 text-xl cursor-pointer  duration-200 text-[#BBE1FA] border px-6 rounded-md my-6 hover:text-[#3282B8] hover:scale-105 '><a onClick={handleClick} href='/pbm/'  duration={500} >Home</a></li>
                 <li  className='py-2 text-xl cursor-pointer duration-200  text-[#BBE1FA] border px-6 rounded-md my-6 hover:text-[#3282B8] hover:scale-105' ><a onClick={handleClick} href='/pbm/#/services'  duration={500} >Services</a></li>
                 <li  className='py-2 text-xl cursor-pointer  duration-200 text-[#BBE1FA] border px-6 rounded-md my-6  hover:text-[#3282B8] hover:scale-105'><a onClick={handleClick} href='/pbm/#/about' duration={500} >About</a></li>
                 <li  className='py-2 text-xl cursor-pointer duration-200  text-[#BBE1FA] border px-6 rounded-md my-6  hover:text-[#3282B8] hover:scale-105'><a onClick={handleClick} href='/pbm/#/contact' duration={500} >Contact</a></li>
