@@ -39,7 +39,7 @@ const Navbar = () => {
     <div className='w-full h-[80px] py-4 justify-center mx-auto  md:hidden'>
         <div className='w-4/5 md:hidden mx-auto justify-center'>
             <div onClick={handleClick} className='justify-between items-center flex flex-row md:hidden z-10 cursor-pointer duration-500 '>
-                <a href='/'><img src={Logo1} alt="Logo" className='md:hidden w-[80px] ' /></a>
+                <a href='/pbm/'><img src={Logo1} alt="Logo" className='md:hidden w-[80px] ' /></a>
                 {!nav ? <FaBars className='bars rounded-sm py-2 p-2 --fa-flip-angle duration-500' size={40} /> : <FaTimes className='cross text-white duration-500' size={30} />}
             </div>
         {/* MObile Menu */}
