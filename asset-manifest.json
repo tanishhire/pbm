@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/tanishhire/pbm/static/css/main.daac00b4.css",
-    "main.js": "/tanishhire/pbm/static/js/main.1548590e.js",
-    "static/media/367three.png": "/tanishhire/pbm/static/media/367three.65b22f546dead56deec2.png",
-    "static/media/1image.png": "/tanishhire/pbm/static/media/1image.e0f91e550838a2dfc89c.png",
-    "static/media/205i.png": "/tanishhire/pbm/static/media/205i.f27bb1a8145aa473fd7e.png",
-    "static/media/85199422.png": "/tanishhire/pbm/static/media/85199422.8d0a78a77e31ec86370a.png",
-    "static/media/1.png": "/tanishhire/pbm/static/media/1.2a397566015c2dbbeb2e.png",
-    "static/media/contrast_logo_wrap.png": "/tanishhire/pbm/static/media/contrast_logo_wrap.5fa363a9d775aceb3f4c.png",
-    "index.html": "/tanishhire/pbm/index.html",
-    "main.daac00b4.css.map": "/tanishhire/pbm/static/css/main.daac00b4.css.map",
-    "main.1548590e.js.map": "/tanishhire/pbm/static/js/main.1548590e.js.map"
+    "main.css": "./static/css/main.daac00b4.css",
+    "main.js": "./static/js/main.172ae8f6.js",
+    "static/media/367three.png": "./static/media/367three.65b22f546dead56deec2.png",
+    "static/media/1image.png": "./static/media/1image.e0f91e550838a2dfc89c.png",
+    "static/media/205i.png": "./static/media/205i.f27bb1a8145aa473fd7e.png",
+    "static/media/85199422.png": "./static/media/85199422.8d0a78a77e31ec86370a.png",
+    "static/media/1.png": "./static/media/1.2a397566015c2dbbeb2e.png",
+    "static/media/contrast_logo_wrap.png": "./static/media/contrast_logo_wrap.5fa363a9d775aceb3f4c.png",
+    "index.html": "./index.html",
+    "main.daac00b4.css.map": "./static/css/main.daac00b4.css.map",
+    "main.172ae8f6.js.map": "./static/js/main.172ae8f6.js.map"
   },
   "entrypoints": [
     "static/css/main.daac00b4.css",
-    "static/js/main.1548590e.js"
+    "static/js/main.172ae8f6.js"
   ]
 }
