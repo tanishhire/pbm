@@ -20,13 +20,13 @@ function App() {
           <Route path="/" element={<Hero />} />
         </Routes>           
         <Routes>
-          <Route path="/services" element={<Services />} />
+          <Route path="pbm/services" element={<Services />} />
         </Routes>   
         <Routes>
-          <Route path="/contact" element={<Contact />} />
+          <Route path="pbm/contact" element={<Contact />} />
         </Routes>        
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="pbm/about" element={<About />} />
         </Routes>
         <Footer />
   
