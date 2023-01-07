@@ -40,7 +40,7 @@ const Hero = () => {
                                 as well as top-notch service for all of your office needs.
                             </p>
                             <div className='flex flex-col'>
-                            <a href="#/contact" ><button className=' py-1 px-2 md:w-1/2  md:py-1 lg:py-2 md:px-2 lg:px-2 rounded-full shadow-xl bg-white text-[#1B262C] border-2 duration-500 hover:scale-105 hover:bg-[#1B262c] hover:text-white'>Enquire now and get quoted</button></a>
+                            <a href="/pbm/#/contact" ><button className=' py-1 px-2 md:w-1/2  md:py-1 lg:py-2 md:px-2 lg:px-2 rounded-full shadow-xl bg-white text-[#1B262C] border-2 duration-500 hover:scale-105 hover:bg-[#1B262c] hover:text-white'>Enquire now and get quoted</button></a>
                             <a href='https://wa.me/9665168307' target="_blank" rel="noopener noreferrer"><button className='md:hidden lg:hidden my-4 w-1/2 px-2 py-2 duration-500 hover:scale-105 hover:bg-[#1B262c] hover:text-white border bg-white border-1 rounded-full whatsapp'>WhatsApp Now</button></a>
                             </div>
                         </div>

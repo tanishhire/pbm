@@ -20,10 +20,10 @@ const Navbar = () => {
                 <a href='/'><img src={Logo1} alt="Logo" className='invisble  md:object-contain md:w-[80px] ' /></a>
                 {/* menu */}
                 <ul className='hidden md:flex'>
-                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/' >Home</a></li>
-                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/#/services'>Services</a></li>
-                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/#/about'>About</a></li>
-                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/#/contact'>Contact</a></li>
+                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/pbm/' >Home</a></li>
+                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/pbm/#/services'>Services</a></li>
+                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/pbm/#/about'>About</a></li>
+                    <li className='p-4 cursor-pointer text-[#fff] hover:scale-105 hover:text-[#3282B8]'><a href='/pbm/#/contact'>Contact</a></li>
                     </ul>
                     <div className='my-auto'>
                     <a href='https://wa.me/9665168307' target="_blank" rel="noopener noreferrer">
@@ -46,9 +46,9 @@ const Navbar = () => {
         <div className=' flex flex-row  justify-end duration-500'>
             <ul className= {!nav ? 'hidden' :  "absolute bg-[#1B262C] my-4 rounded-md w-2/5  z-50 flex flex-col  items-center"}>
                 <li  className='py-2 text-xl cursor-pointer  duration-200 text-[#BBE1FA] border px-6 rounded-md my-6 hover:text-[#3282B8] hover:scale-105 '><a onClick={handleClick} href='/'  duration={500} >Home</a></li>
-                <li  className='py-2 text-xl cursor-pointer duration-200  text-[#BBE1FA] border px-6 rounded-md my-6 hover:text-[#3282B8] hover:scale-105' ><a onClick={handleClick} href='/#/services'  duration={500} >Services</a></li>
-                <li  className='py-2 text-xl cursor-pointer  duration-200 text-[#BBE1FA] border px-6 rounded-md my-6  hover:text-[#3282B8] hover:scale-105'><a onClick={handleClick} href='/#/about' duration={500} >About</a></li>
-                <li  className='py-2 text-xl cursor-pointer duration-200  text-[#BBE1FA] border px-6 rounded-md my-6  hover:text-[#3282B8] hover:scale-105'><a onClick={handleClick} href='/#/contact' duration={500} >Contact</a></li>
+                <li  className='py-2 text-xl cursor-pointer duration-200  text-[#BBE1FA] border px-6 rounded-md my-6 hover:text-[#3282B8] hover:scale-105' ><a onClick={handleClick} href='/pbm/#/services'  duration={500} >Services</a></li>
+                <li  className='py-2 text-xl cursor-pointer  duration-200 text-[#BBE1FA] border px-6 rounded-md my-6  hover:text-[#3282B8] hover:scale-105'><a onClick={handleClick} href='/pbm/#/about' duration={500} >About</a></li>
+                <li  className='py-2 text-xl cursor-pointer duration-200  text-[#BBE1FA] border px-6 rounded-md my-6  hover:text-[#3282B8] hover:scale-105'><a onClick={handleClick} href='/pbm/#/contact' duration={500} >Contact</a></li>
                 
             </ul>
         </div>
